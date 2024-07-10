@@ -1,0 +1,45 @@
+.topNav {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.topNav .home {
+    float: left;
+    padding: 14px 60px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.topNav .home:hover {
+    background-color: none;
+}
+
+.topNav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+  
+.topNav a {
+    float: right;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topNav a button {
+    padding: 8px 40px;
+    border: 2px solid #0380fc;
+    border-radius: 6px;
+    background: none;
+    cursor: pointer;
+}

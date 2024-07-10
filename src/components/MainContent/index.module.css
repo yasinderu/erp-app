@@ -1,0 +1,63 @@
+.mainContent {
+    position: relative;
+    padding: 0 100px 40px 100px;
+}
+
+.textRight {
+    /* right: 0; */
+    padding: 60px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textLeft {
+    padding: 60px 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.textRight h3,
+.textLeft h3 {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 70%;
+    text-align: center;
+}
+
+.img {
+    width: 25%;
+}
+
+.contentWrapper {
+    margin-top: 240px;
+}
+
+.content {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.content .aboutText {
+    line-height: 1.8;
+}
+
+.content .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .contact span {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 780px) {
+    .img {
+        width: 100%;
+    }
+
+    .textRight {
+        padding: 0;
+    }
+}
